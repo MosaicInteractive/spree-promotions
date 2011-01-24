@@ -4,4 +4,4 @@ map.namespace :admin do |admin|
    admin.resources :promotions, :only => [:index]
  end
 
-map.resources :promotions
+map.resources :promotions, :as => 'sales'
